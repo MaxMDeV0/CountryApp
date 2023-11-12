@@ -12,16 +12,16 @@ export default function Header(props){
             root.style.setProperty('--second-color', '#2B3844')
             root.style.setProperty('--text-color', '#ffffff')
             root.style.setProperty('--arrow-url', 'url(/src/assets/whiteArrow.svg)')
-            root.style.setProperty('--select-url', 'url(/src/assets/whiteSelectArrow.svg)')
+            root.style.setProperty('--select-url', 'url(https://github.com/MaxMDeV0/CountryApp/blob/gh-pages/assets/whiteSearchIcon-6200feec.svg)')
             root.style.setProperty('--theme-url', 'url(/src/assets/sun.svg)')
 
         }else{
             root.style.setProperty('--main-color', '#fafafa')
             root.style.setProperty('--second-color', '#ffffff')
             root.style.setProperty('--text-color', '#000000')
-            root.style.setProperty('--arrow-url', 'url(/src/assets/backArrow.svg)')
-            root.style.setProperty('--select-url', 'url(/src/assets/selectArrow.svg)')
-            root.style.setProperty('--theme-url', 'url(/src/assets/darkIcon.svg)')
+            root.style.setProperty('--arrow-url', 'url(https://github.com/MaxMDeV0/CountryApp/blob/gh-pages/assets/backArrow-bc11d6e5.svg)')
+            root.style.setProperty('--select-url', 'url(https://github.com/MaxMDeV0/CountryApp/blob/gh-pages/assets/selectArrow-c7e09baa.svg)')
+            root.style.setProperty('--theme-url', 'url(https://github.com/MaxMDeV0/CountryApp/blob/gh-pages/assets/darkIcon-19c2cab0.svg)')
 
         }
     },[dark])
