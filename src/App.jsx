@@ -3,7 +3,7 @@ import './App.css'
 import Header from './Components/Header'
 import CountryList from './Components/CountryList'
 import RegionFilter from './Components/RegionFilter'
-import {ReactComponent as searchIcon} from './assets/searchIcon.svg'
+import searchIcon from './assets/searchIcon.svg'
 import whiteSearchIcon from './assets/whiteSearchIcon.svg'
 import Country from './Components/Country'
 
